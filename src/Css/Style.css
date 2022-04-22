@@ -1,0 +1,207 @@
+body {
+    margin: auto;
+}
+
+html{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.89), #8fc5c9cc);
+}
+  
+.todoapp {
+    width: 600px;
+    background-image: linear-gradient(to right, #da977dab,#c4ae4fbb);
+    margin: 120px auto;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.todoapp-title {
+    width: 40%;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#all {
+    height: 35px;
+    width: 20%;
+    font-size: 22px;
+    margin-left: 30px;
+    cursor: pointer;
+    border: none;
+    font-weight: bolder;
+    background:none;
+    font-size: 18px;
+    color: yellow;
+}
+
+#all:hover{
+    color: black;
+}
+
+#active {
+    height: 35px;
+    width: 20%;
+    font-size: 22px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    background:none;
+    font-size: 18px;
+    color: yellow;
+}
+
+#active:hover{
+    color: black;
+}
+
+#completed {
+    height: 35px;
+    width: 29%;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bolder;
+    border: none;
+    background:none;
+    font-size: 18px;
+    color: yellow;
+}
+
+#completed:hover{
+    color: black;
+}
+
+.clear {
+    height: 35px;
+    width: 15%;
+    font-size: 22px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+    background:none;
+    color: yellow;
+}
+
+.clear:hover {
+    color: red;
+}
+
+.input {
+    width: 81%;
+    border: 3px solid rgb(236, 86, 241);
+    margin: 0 0 10px 50px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+div input{
+    width: 30%;
+    height: 30px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    background: none;
+    word-wrap: break-word;
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.todoList input{
+    width: 83%;
+    height: 35px;
+    margin-top: 1px;
+    font-size: 22px;
+    font-weight: bold;
+    background: none;
+    word-wrap: break-word;
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.todoList{
+    width: 98%;
+    height: 45px;
+    margin: 5px;
+    font-size: 22px;
+    font-weight: bolder;
+    border: none;
+    background: none;
+    word-wrap: break-word;
+    text-overflow: clip;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+
+div.toDoItem {
+    user-select: none;
+}
+
+.editing input{
+    width: 80%;
+    height: 40px;
+    margin-left: 55px;
+}
+
+.selectall{
+    font-size: 21px;
+    font-weight: bold; 
+    color: yellow;
+}
+
+label {
+    font-size: 22px;
+    margin: 5px 5px;
+    font-weight: bold;
+    user-select: none;
+    word-wrap: break-word;
+    text-overflow: clip;
+    overflow: hidden;
+}
+
+.label{
+    border-bottom: none;
+}
+
+span.button {
+    width: 80%;
+    margin-left: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: none;
+}
+
+span.button:hover {
+    color: red;
+}
+
+input#status.check[type="checkbox"]:checked ~ label{
+    text-decoration: line-through;
+    color: rgba(224, 26, 26, 0.788);
+} 
+
+input.select{
+    font-size:10px;
+    width: 5%;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+input#status[type="checkbox" i].check{
+    font-size: 10px;
+    width: 5%;
+    margin: 3px 3px 3px 15px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.submit{
+    background: none;
+    border: none;
+}
+
