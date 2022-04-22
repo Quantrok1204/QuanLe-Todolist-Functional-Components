@@ -67,12 +67,12 @@ const Header = () => {
     };
 
     const getEdit = (id = '') => {
-        const todoEditingId = id
-        setEdit (todoEditingId)
+        const todoEditing = id
+        setEdit(todoEditing)
       }
 
     const editTodo = (data, index) => {
-        datas.splice(index, 1, data);
+        datas.splice(index, 1, data);   
         setDatas(datas);
     }
     
